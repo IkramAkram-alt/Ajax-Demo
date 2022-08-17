@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+<div class= "container">
+  <div class = "row">
+    <div class = "col-lg-8 mx-md auto">
+      <p>
+        <strong>Name:</strong>
+        <%= @user.name %>
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <%= @user.email %>
+      </p>
+      <p>
+        <strong>Address:</strong>
+        <%= @user.address %>
+      </p>
+      <p>
+        <strong>Contact:</strong>
+        <%= @user.contact %>
+      </p>
+      <%= link_to 'Back', users_path, class:"btn btn-outline-primary btn-lg"%>
+    </div>
+  </div>
+</div>
